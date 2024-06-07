@@ -6,8 +6,9 @@ body {
 .header {
     background-color: yellow;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+    padding: 0px 60px;
     
 }
 
@@ -27,12 +28,22 @@ li, a{
 
 .topinfo {
     background-color: antiquewhite;
+    display: flex;
+    justify-content: space-between;
+    padding: 60px 60px;
+}
 
+.topinfo button {
+    padding: 3px 20px;
 }
 
 .midinfo {
     background-color: aquamarine;
 
+}
+
+.infoimage {
+    
 }
 
 .bottominfo {
