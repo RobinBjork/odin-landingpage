@@ -1,6 +1,7 @@
 body {
     display: flex;
     flex-direction: column;
+    
 }
 
 .header {
@@ -39,11 +40,26 @@ li, a{
 
 .midinfo {
     background-color: aquamarine;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    padding-bottom: 30px;
+}
 
+.imagecontainer{
+    display: flex;
+    justify-content: center;
+    gap: 14px;
 }
 
 .infoimage {
-    
+    flex-basis: 150px;
+}
+
+.infoimage img {
+    border: solid blue 4px;
+    border-radius: 10%;
 }
 
 .bottominfo {
