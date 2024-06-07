@@ -64,7 +64,20 @@ li, a{
 
 .bottominfo {
     background-color: greenyellow;
-
+    padding: 0px 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.leftquote{
+    width: 600px;
+    
+}
+.rightquote {
+    text-align: end;
+    
 }
 
 .sign-up {
@@ -72,5 +85,6 @@ li, a{
 }
 
 .footer {
-
+    display: flex;
+    justify-content: center;
 }
