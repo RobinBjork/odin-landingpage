@@ -1,0 +1,49 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    background-color: yellow;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.links {
+    /* background-color: rgb(99, 99, 126); */
+    display: flex;
+    gap: 14px;
+    
+}
+
+li, a{
+    list-style: none;
+    text-decoration: none;
+    color: black;
+}
+
+
+.topinfo {
+    background-color: antiquewhite;
+
+}
+
+.midinfo {
+    background-color: aquamarine;
+
+}
+
+.bottominfo {
+    background-color: greenyellow;
+
+}
+
+.sign-up {
+    background-color: red;
+}
+
+.footer {
+
+}
